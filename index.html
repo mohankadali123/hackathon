@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Rules</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <p>As you get ready to participate in the [name] hackathon, we want to extend a warm welcome and offer some important instructions to ensure a seamless and rewarding experience for everyone involved.
+                    Your participation in this hackathon is valued, and we're excited to see the innovative solutions you'll create. To make the most of this event, please take note of the following guidelines:
+                    We're committed to fostering a collaborative and supportive environment where creativity thrives. If you have any questions or need assistance during the event, our team will be readily available to help.
+                    Thank you for joining us for the [name] hackathon. Together, let's make this event a success!
+                    <br><br>
+                    Warm regards,
+                    Team [name]
+                    </p>
+                <h2 class="mb-4">Hackathon Rules</h2>
+                <ol>
+                    <li>Attend the opening ceremony at the Auditorium Block promptly at 9:30 AM on March 15th.</li>
+                    <li>Bring a valid College ID card for identification purposes.</li>
+                    <li>Adhere to the theme announced at the outset of the event.</li>
+                    <li>Ensure you have all necessary equipment, including laptops, mobile phones, chargers, LAN connectors, and any other tools essential for participation.</li>
+                    <li>Inform us in advance of any special dietary requirements or other needs you may have. Food will be provided for all participants.</li>
+                    <li>The hackathon will commence with an opening ceremony, followed by the announcement of the use case.</li>
+                    <li>All participants must adhere to the event code of conduct, treating others with respect and refraining from disruptive or inappropriate behavior.</li>
+                    <li>Top-performing teams will be recognized and awarded during the closing ceremony.</li>
+                </ol>
+                <form action="">
+                    <div class="form-group">
+                        <input type="checkbox" name="check-box" id="check-box">
+                        <label for="check-box">I understand</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        let check = document.getElementById("check-box");
+
+        check.addEventListener('change', function() {
+            if (this.checked) {
+                window.location.href = "https://forms.gle/oBXESCh7GS8TC7i96"; // Redirect to the specified link when checked
+            }
+        });
+    </script>
+</body>
+</html>
